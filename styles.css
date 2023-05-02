@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#left-div {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e6f6fc;
+}
+
+#right-div {
+  width: 50%;
+  height: 100vh;
+  padding: 10%;
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #e6f6fc;
+}
+
+#img-umbrella {
+  width: 80%;
+  height: auto;
+}
+
+.colors {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+
+.color-div {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  margin-bottom: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+#title {
+  font-size: 50px;
+}
+
+#subtitle {
+  margin: 0;
+}
+
+#p1 {
+  margin: 10px 0;
+  font-weight: normal;
+  color: #4a5255;
+}
+#p2 {
+  margin: 0 0 10px 0;
+  font-weight: lighter;
+  color: #849299;
+}
+
+.upload-div {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  background-color: #00a3e0;
+  cursor: pointer;
+}
+
+.upload-div > img {
+  padding: 15px;
+  color: #fff;
+}
+
+.upload-div > h3 {
+  flex: 1;
+  text-align: center;
+  color: #fff;
+}
+
+#logo {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  margin-bottom: -22%;
+  align-items: center;
+}
+#logo > img {
+  padding: 0 5px;
+  width: 15px;
+  height: 15px;
+  display: none;
+}
+
+#logo > p {
+  flex: 1;
+  text-align: center;
+  font-size: smaller;
+}
+
+img[src=""] {
+  display: none;
+}

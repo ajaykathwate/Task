@@ -1,4 +1,4 @@
-public class Demo {
+public class Test {
 	
 	public static int fly(int[] nums) {
 		if(nums.length == 1){
